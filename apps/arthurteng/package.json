@@ -1,0 +1,33 @@
+{
+  "name": "@forge/arthurteng",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "clean": "git clean -xdf .cache .turbo dist node_modules",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit --emitDeclarationOnly false"
+  },
+  "devDependencies": {
+    "@forge/eslint-config": "workspace:*",
+    "@forge/prettier-config": "workspace:*",
+    "@forge/tsconfig": "workspace:*",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:"
+  },
+  "prettier": "@forge/prettier-config",
+  "dependencies": {
+    "next": "^14.2.15",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

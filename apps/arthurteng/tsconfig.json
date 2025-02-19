@@ -1,0 +1,21 @@
+{
+  "extends": "@forge/tsconfig/internal-package.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "react",
+    "strict": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "*.ts",
+    "src",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
