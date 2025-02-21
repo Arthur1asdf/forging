@@ -3,6 +3,7 @@
   "compilerOptions": {
     "jsx": "preserve",
     "jsxImportSource": "react",
+    "lib": ["dom", "esnext"],
     "strict": true,
     "plugins": [
       {

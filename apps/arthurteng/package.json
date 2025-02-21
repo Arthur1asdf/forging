@@ -20,8 +20,13 @@
     "@forge/eslint-config": "workspace:*",
     "@forge/prettier-config": "workspace:*",
     "@forge/tsconfig": "workspace:*",
+    "@types/node": "^20.16.11",
+    "@types/react": "^19.0.10",
+    "autoprefixer": "^10.4.20",
     "eslint": "catalog:",
+    "postcss": "^8.4.47",
     "prettier": "catalog:",
+    "tailwindcss": "^4.0.7",
     "typescript": "catalog:"
   },
   "prettier": "@forge/prettier-config",
